@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #0B3C5D;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.navbar h2 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #D9B310;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #328CC1;
+    color: white;
+}
+
+.hero a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.section h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #0B3C5D;
+}
+
+.about {
+font-family: 'Poppins', sans-serif;
+color:black;
+text-align: center;
+}
+
+.random{
+    border: 5px solid #0B3C5D;
+    padding-top: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom:25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+}
+.about_us{
+    font-family:'poppins', sans-serif;
+    color: #0B3C5D;
+    padding-left: 20px;
+    margin: 10px;
+    font-weight: 800;
+}
+
+
+img {
+  width: 300px;  /* Fixed width */
+  height: auto;  /* Maintains aspect ratio automatically */
+}
+
+.card-container {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; 
+    padding: 20px;
+    align-items: stretch;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card ul{
+    text-align: left;
+}
+
+.card h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #0B3C5D;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+
+.cardsl{
+     background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+    }
+
+.cardsl img {
+    width: 100%;        
+    height: 200px;      
+    object-fit: cover;  
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;  }  
+.campus-life-box {
+    border: 3px solid #0B3C5D; 
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    
+  
+    margin-top: 60px; 
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    display: block;
+    clear: both; 
+    text-align: center;
+}
